@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "jupyter-notebook"
 version = "0.1.0"
-description = "Example"
+description = "Visualisation of square wave program using Jupyter Notebooks"
 authors = ["Nathan Young"]
 license = "Apache-2.0"
 readme = "README.md"
