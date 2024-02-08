@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "jupyter-notebook"
+version = "0.1.0"
+description = "Visualisation of square wave program using Jupyter Notebooks"
+authors = ["Nathan Young"]
+license = "Apache-2.0"
+readme = "README.md"
+packages = []
+
+
+[tool.poetry.dependencies]
+python = "^3.10.13"
+rp2040-pio-emulator = "0.83.0"
+jupyter = "1.0.0"
+seaborn = "0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
