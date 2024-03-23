@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "pio2fst"
 version = "0.1.0"
-description = "Visualisation of PIO program using GTKWave"
+description = "Creates Fast Signal Trace files suitable for analysis by GTKWave"
 authors = ["Nathan Young"]
 license = "Apache-2.0"
 readme = "README.md"
