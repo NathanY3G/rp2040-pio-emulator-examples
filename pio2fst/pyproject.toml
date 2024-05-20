@@ -9,13 +9,13 @@ packages = []
 
 [tool.poetry.dependencies]
 python = "^3.11"
-adafruit-circuitpython-pioasm = "1.0.0"
+adafruit-circuitpython-pioasm = "1.0.1"
 click = "8.1.7"
 pylibfst = "0.2.0"
 rp2040-pio-emulator = "0.83.0"
 
 [tool.poetry.group.dev.dependencies]
-black = "24.3.0"
+black = "24.4.2"
 
 [build-system]
 requires = ["poetry-core"]
