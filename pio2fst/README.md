@@ -15,6 +15,6 @@ By default, the following values are saved to the file:
 Create a file named `example.fst` by emulating the PIO program `example.pio`:
 
 ```shell
-poetry run pio2fst --input example.pio --output example.fst
-gtkwave example.fst
+poetry run pio2fst --input example.pio --samples 100
+gtkwave out.fst
 ```
