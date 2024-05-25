@@ -20,12 +20,19 @@ output_variables = {
 
 @click.command()
 @click.option(
-    "--input", required=True, help="Name of file to load PIO program source from."
+    "--input",
+    required=True,
+    type=str,
+    help="Name of file to load PIO program source from",
 )
 @click.option(
-    "--output", default="out.fst", help="Name to use for the generated FST file."
+    "--output",
+    default="out.fst",
+    type=str,
+    help="Name to use for the generated FST file",
 )
-def run(input: str, output: str):
+@click.option("--samples", required=True, type=int, help="Number of samples to acquire")
+def run(input: str, output: str, samples: int):
     with open(input, mode="rt", encoding="UTF-8") as file:
         program = assemble(file.read())
 
@@ -52,7 +59,7 @@ def run(input: str, output: str):
     for previous_state, current_state in emulate(
         program,
         initial_state=initial_state,
-        stop_when=clock_cycles_reached(1000),
+        stop_when=clock_cycles_reached(samples),
     ):
         write_changed_values(writer, output_variables, previous_state, current_state)
 
