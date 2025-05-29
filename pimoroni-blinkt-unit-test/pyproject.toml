@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pimoroni-blinkt-unit-test"
-version = "0.1.1"
+version = "0.1.2"
 description = "TDD example for the Pimoroni Blinkt!"
 authors = ["Nathan Young"]
 license = "Apache-2.0"
@@ -10,7 +10,7 @@ packages = []
 [tool.poetry.dependencies]
 python = "^3.11"
 rp2040-pio-emulator = "0.84.0"
-pytest = "8.3.4"
+pytest = "8.3.5"
 
 [tool.poetry.group.dev.dependencies]
 black = "25.1.0"
