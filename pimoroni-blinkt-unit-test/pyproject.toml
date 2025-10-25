@@ -9,11 +9,11 @@ packages = []
 
 [tool.poetry.dependencies]
 python = "^3.11"
-rp2040-pio-emulator = "0.84.0"
-pytest = "8.3.5"
+rp2040-pio-emulator = "==0.86.0"
+pytest = "==8.4.2"
 
 [tool.poetry.group.dev.dependencies]
-black = "25.1.0"
+black = "==25.9.0"
 
 [build-system]
 requires = ["poetry-core"]
