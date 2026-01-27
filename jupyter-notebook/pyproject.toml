@@ -13,6 +13,7 @@ python = "^3.11"
 rp2040-pio-emulator = "==0.86.0"
 jupyter = "==1.1.1"
 seaborn = "==0.13.2"
+vcdvcd = "^2.6.0"
 
 
 [build-system]
