@@ -5,3 +5,4 @@ This repository contains various examples for [rp2040-pio-emulator](https://gith
 * [jupyter-notebook](./jupyter-notebook/README.md) - Visualisation of square wave program using [Jupyter Notebooks](https://jupyter.org/)
 * [pimoroni-blinkt-unit-test](./pimoroni-blinkt-unit-test/README.md) - TDD example for the Pimoroni Blinkt!
 * [pio2fst](./pio2fst/README.md) - Creates Fast Signal Trace files suitable for analysis by [GTKWave](https://gtkwave.sourceforge.net/).
+* [FIFO loopback](./fifo_loopback/README.md) - FIFO loopback example.
